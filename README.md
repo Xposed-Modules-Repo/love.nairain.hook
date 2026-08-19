@@ -1,6 +1,16 @@
-# Rain
+<div align="center">
+<h1>Rain</h1>
 
-Rain 是一个基于 libxposed 102 API 的现代 Xposed 模块，内置 Jetpack Compose + Miuix 管理界面。
+<a href="https://github.com/Xposed-Modules-Repo/love.nairain.hook/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/love.nairain.hook/total?label=Downloads"></a>
+<a href="https://github.com/Xposed-Modules-Repo/love.nairain.hook/releases/latest"><img alt="GitHub latest release" src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/love.nairain.hook"></a>
+
+<a href="https://t.me/Rain_Cl"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram"></a>
+
+<p>用于优化部分 App 使用体验的 Xposed 模块</p>
+
+<p>
+
+---
 
 模块在目标应用自己的进程里改写运行时行为。当前适配应用列表以模块内的“应用”页面为准。
 
@@ -19,12 +29,13 @@ Rain 是一个基于 libxposed 102 API 的现代 Xposed 模块，内置 Jetpack 
 - 支持 libxposed 102 API 的框架，例如 LSPosed
 - 已解锁/root 设备
 
-## 安装
+## 使用教程
 
 1. 安装模块 APK
 2. 在 LSPosed 中启用 Rain
 3. 在模块内的“应用”页面或 LSPosed 中选择作用域
 4. 按框架提示重启目标应用
+5. 也可参考应用内使用教程
 
 ## 说明
 
