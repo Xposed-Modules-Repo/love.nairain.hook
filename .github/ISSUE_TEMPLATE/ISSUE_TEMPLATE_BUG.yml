@@ -1,0 +1,70 @@
+name: "问题反馈"
+description: "如果你有遇到 功能不生效/其他BUG 请选择此项进行反馈"
+title: "【问题反馈】 "
+labels: [ "问题反馈" ]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ⚠️ 重要阅读
+      options:
+        - label: 请确保你是LSPosed用户。
+          required: true
+        - label: 请确保你已升级至 [最新的release版本](https://github.com/Xposed-Modules-Repo/love.nairain.hook/releases/latest)。
+          required: true
+        - label: 请确保你已在 [已有的issues](https://github.com/Xposed-Modules-Repo/love.nairain.hook/issues?q=is%3Aissue%20is%3Aclosed%20label%3A%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88) 中查询过没有类似的问题。
+          required: true
+  - type: input
+    id: xposed-framework
+    attributes:
+      label: 使用框架
+      description: 请在此说明您使用的LSPosed框架分支
+      placeholder: 例如：LSPosed-v2.1.1-7790-release
+    validations:
+      required: true
+  - type: input
+    id: device-info
+    attributes:
+      label: 设备信息
+      description: 请在此说明您使用的设备型号、Android 版本等信息
+      placeholder: 例如：REDMI K80 Ultra Android16
+    validations:
+      required: true
+  - type: input
+    id: app-name
+    attributes:
+      label: 应用名称
+      description: 请在此说明要反馈的应用名称
+      placeholder: 例如：番茄免费小说
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: 应用版本号
+      description: 请在此说明要反馈的应用版本信息
+      placeholder: 例如：7.2.9.32(72932)
+    validations:
+      required: true
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: 问题描述
+      description: 请在此描述遇到的问题。
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: issues-screenshot
+    attributes:
+      label: 问题截图/视频
+      description: 请在此上传问题的截图和视频。
+    validations:
+      required: true
+  - type: textarea
+    id: issues-lsposedlog
+    attributes:
+      label: LSPosed日志
+      description: 请在此上传LSPosed的模块日志，提交前请先前往LSPosed管理器清空日志，在软件内切换调试日志，然后重新复现此问题。
+    validations:
+      required: true
