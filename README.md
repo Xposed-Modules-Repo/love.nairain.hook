@@ -11,7 +11,7 @@
 [![下载量](https://img.shields.io/github/downloads/Xposed-Modules-Repo/love.nairain.hook/total?label=Downloads)](https://github.com/Xposed-Modules-Repo/love.nairain.hook/releases)
 [![最新版本](https://img.shields.io/github/v/release/Xposed-Modules-Repo/love.nairain.hook)](https://github.com/Xposed-Modules-Repo/love.nairain.hook/releases/latest)
 
-[下载模块](#下载模块) · [支持应用](#支持应用) · [使用教程](#使用教程) · [常见问题](#常见问题) · [赞助打赏](#赞助打赏)
+[下载模块](#下载模块) · [支持应用](#支持应用) · [使用教程](#使用教程) · [常见问题](#常见问题) · [问题反馈](https://github.com/nairain233/Rain/issues/new/choose) · [赞助打赏](#赞助打赏)
 
 </div>
 
@@ -81,7 +81,7 @@ Rain 是一个基于现代 Xposed API 的免费模块，为已适配应用提供
 
 ### 如何反馈问题？
 
-反馈时请提供 Rain 版本、系统与框架版本、目标应用版本，以及具体问题和复现步骤，便于排查。
+请前往 [问题反馈](https://github.com/nairain233/Rain/issues/new/choose) 提交问题。反馈时请提供 Rain 版本、系统与框架版本、目标应用版本，以及具体问题和复现步骤，便于排查。
 
 ## 说明
 
@@ -97,10 +97,4 @@ Rain 是一个基于现代 Xposed API 的免费模块，为已适配应用提供
 
 **模块会继续免费发布，赞助仅作为支持。**
 
-通过 [爱发电支持](https://afdian.com/a/nairain)，或扫描下方赞助码。
-
-<div align="center">
-
 <img width="200" height="200" alt="赞助码" src="https://github.com/user-attachments/assets/974cda68-d377-4d1d-aeaa-dba24d58ebf2" />
-
-</div>
